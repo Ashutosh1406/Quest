@@ -14,4 +14,9 @@ func main() {
 	playerA := arena.NewBasicPlayer(50, 5, 10)
 	playerB := arena.NewBasicPlayer(100, 10, 5)
 
+	//Match Strarts
+
+	match := arena.NewMatch(playerA, playerB) //using Match struct in pkg/arena/player.go
+	match.Start()
+
 }
