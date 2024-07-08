@@ -34,8 +34,9 @@ func (p *BasicPlayer) GetAttack() int {
 	return p.attack
 }
 
-func (p *BasicPlayer) ReduceHealth(amount int) int {
+func (p *BasicPlayer) ReduceHealth(amount int) {
 	p.health -= amount
+	// TODO:
 }
 
 func (p *BasicPlayer) IsAlive() bool {
