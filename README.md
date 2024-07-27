@@ -5,7 +5,7 @@
 - `pkg/arena/player.go`: Contains the `Player` interface and its implementation.
 - `pkg/arena/utils.go`: Contains utility functions used in the match.
 - `test/arena_test.go`: Contains unit tests for the Magical Arena implementation. Covered all the Corner Cases as well
-- `main.go`: Entry point for running the simulation.
+- `cmd/main.go`: Entry point for running the simulation.
 - `go.mod` and `go.sum`: Go module files for dependency management.
 - `README.md`: This file, providing an overview and instructions.
 
